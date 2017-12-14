@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.TypeScript.MSBuild.2.1.5\build\Microsoft.TypeScript.MSBuild.props" Condition="Exists('..\packages\Microsoft.TypeScript.MSBuild.2.1.5\build\Microsoft.TypeScript.MSBuild.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{9F739693-3107-41C9-BEB5-FE9959FE26FA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.css" />
+    <Content Include="bootstrap\css\bootstrap-theme.css" />
+    <Content Include="bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="bootstrap\css\bootstrap.css" />
+    <Content Include="bootstrap\css\bootstrap.min.css" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap\js\bootstrap.js" />
+    <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="bootstrap\js\npm.js" />
+    <Content Include="css\layouts\side-menu-old-ie.css" />
+    <Content Include="css\layouts\side-menu.css" />
+    <Content Include="images\100px-Playing_card_club_10.png" />
+    <Content Include="images\100px-Playing_card_club_2.png" />
+    <Content Include="images\100px-Playing_card_club_3.png" />
+    <Content Include="images\100px-Playing_card_club_4.png" />
+    <Content Include="images\100px-Playing_card_club_5.png" />
+    <Content Include="images\100px-Playing_card_club_6.png" />
+    <Content Include="images\100px-Playing_card_club_7.png" />
+    <Content Include="images\100px-Playing_card_club_8.png" />
+    <Content Include="images\100px-Playing_card_club_9.png" />
+    <Content Include="images\100px-Playing_card_club_A.png" />
+    <Content Include="images\100px-Playing_card_club_J.png" />
+    <Content Include="images\100px-Playing_card_club_K.png" />
+    <Content Include="images\100px-Playing_card_club_Q.png" />
+    <Content Include="images\100px-Playing_card_diamond_10.png" />
+    <Content Include="images\100px-Playing_card_diamond_2.png" />
+    <Content Include="images\100px-Playing_card_diamond_3.png" />
+    <Content Include="images\100px-Playing_card_diamond_4.png" />
+    <Content Include="images\100px-Playing_card_diamond_5.png" />
+    <Content Include="images\100px-Playing_card_diamond_6.png" />
+    <Content Include="images\100px-Playing_card_diamond_7.png" />
+    <Content Include="images\100px-Playing_card_diamond_8.png" />
+    <Content Include="images\100px-Playing_card_diamond_9.png" />
+    <Content Include="images\100px-Playing_card_diamond_A.png" />
+    <Content Include="images\100px-Playing_card_diamond_J.png" />
+    <Content Include="images\100px-Playing_card_diamond_K.png" />
+    <Content Include="images\100px-Playing_card_diamond_Q.png" />
+    <Content Include="images\100px-Playing_card_heart_10.png" />
+    <Content Include="images\100px-Playing_card_heart_2.png" />
+    <Content Include="images\100px-Playing_card_heart_3.png" />
+    <Content Include="images\100px-Playing_card_heart_4.png" />
+    <Content Include="images\100px-Playing_card_heart_5.png" />
+    <Content Include="images\100px-Playing_card_heart_6.png" />
+    <Content Include="images\100px-Playing_card_heart_7.png" />
+    <Content Include="images\100px-Playing_card_heart_8.png" />
+    <Content Include="images\100px-Playing_card_heart_9.png" />
+    <Content Include="images\100px-Playing_card_heart_A.png" />
+    <Content Include="images\100px-Playing_card_heart_J.png" />
+    <Content Include="images\100px-Playing_card_heart_K.png" />
+    <Content Include="images\100px-Playing_card_heart_Q.png" />
+    <Content Include="images\100px-Playing_card_spade_10.png" />
+    <Content Include="images\100px-Playing_card_spade_2.png" />
+    <Content Include="images\100px-Playing_card_spade_3.png" />
+    <Content Include="images\100px-Playing_card_spade_4.png" />
+    <Content Include="images\100px-Playing_card_spade_5.png" />
+    <Content Include="images\100px-Playing_card_spade_6.png" />
+    <Content Include="images\100px-Playing_card_spade_7.png" />
+    <Content Include="images\100px-Playing_card_spade_8.png" />
+    <Content Include="images\100px-Playing_card_spade_9.png" />
+    <Content Include="images\100px-Playing_card_spade_A.png" />
+    <Content Include="images\100px-Playing_card_spade_J.png" />
+    <Content Include="images\100px-Playing_card_spade_K.png" />
+    <Content Include="images\100px-Playing_card_spade_Q.png" />
+    <Content Include="images\brick.png" />
+    <Content Include="images\laserBlue02.png" />
+    <Content Include="images\playerShip1_red.png" />
+    <Content Include="images\shot.png" />
+    <Content Include="images\tux.png" />
+    <Content Include="index.html" />
+    <Content Include="js\jquery-3.1.1.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="js\ui.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\phaser.min.js" />
+    <Content Include="playersview.html" />
+    <Content Include="pure\base-context-min.css" />
+    <Content Include="pure\base-context.css" />
+    <Content Include="pure\base-min.css" />
+    <Content Include="pure\base.css" />
+    <Content Include="pure\buttons-core-min.css" />
+    <Content Include="pure\buttons-core.css" />
+    <Content Include="pure\buttons-min.css" />
+    <Content Include="pure\buttons.css" />
+    <Content Include="pure\forms-min.css" />
+    <Content Include="pure\forms-nr-min.css" />
+    <Content Include="pure\forms-nr.css" />
+    <Content Include="pure\forms.css" />
+    <Content Include="pure\grids-core-min.css" />
+    <Content Include="pure\grids-core.css" />
+    <Content Include="pure\grids-min.css" />
+    <Content Include="pure\grids-responsive-min.css" />
+    <Content Include="pure\grids-responsive-old-ie-min.css" />
+    <Content Include="pure\grids-responsive-old-ie.css" />
+    <Content Include="pure\grids-responsive.css" />
+    <Content Include="pure\grids-units-min.css" />
+    <Content Include="pure\grids-units.css" />
+    <Content Include="pure\grids.css" />
+    <Content Include="pure\menus-core-min.css" />
+    <Content Include="pure\menus-core.css" />
+    <Content Include="pure\menus-dropdown-min.css" />
+    <Content Include="pure\menus-dropdown.css" />
+    <Content Include="pure\menus-horizontal-min.css" />
+    <Content Include="pure\menus-horizontal.css" />
+    <Content Include="pure\menus-min.css" />
+    <Content Include="pure\menus-scrollable-min.css" />
+    <Content Include="pure\menus-scrollable.css" />
+    <Content Include="pure\menus-skin-min.css" />
+    <Content Include="pure\menus-skin.css" />
+    <Content Include="pure\menus.css" />
+    <Content Include="pure\pure-min.css" />
+    <Content Include="pure\pure-nr-min.css" />
+    <Content Include="pure\pure-nr.css" />
+    <Content Include="pure\pure.css" />
+    <Content Include="pure\tables-min.css" />
+    <Content Include="pure\tables.css" />
+    <Content Include="Scripts\jquery-1.8.0.js" />
+    <Content Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="box2d.d.ts" />
+    <TypeScriptCompile Include="Models\CallResults.ts" />
+    <TypeScriptCompile Include="Models\Card.ts" />
+    <TypeScriptCompile Include="Models\Game.ts" />
+    <TypeScriptCompile Include="Models\GameCards.ts" />
+    <TypeScriptCompile Include="Models\Models.ts" />
+    <TypeScriptCompile Include="Models\Player.ts" />
+    <TypeScriptCompile Include="Models\PlayerGame.ts" />
+    <TypeScriptCompile Include="Models\SuitCardColor.ts" />
+    <TypeScriptCompile Include="Models\HelperPontinho.ts" />
+    <TypeScriptCompile Include="p2.d.ts" />
+    <TypeScriptCompile Include="phaser.d.ts" />
+    <TypeScriptCompile Include="phaser_box2d.d.ts" />
+    <TypeScriptCompile Include="pixi.d.ts" />
+    <TypeScriptCompile Include="playersview.ts" />
+    <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="bootstrap\css\bootstrap-theme.min.css.map" />
+    <Content Include="bootstrap\css\bootstrap.css.map" />
+    <Content Include="bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="PontinhoWeb.pubxml" />
+    <Content Include="pure\bower.json" />
+    <Content Include="pure\HISTORY.md" />
+    <Content Include="pure\LICENSE.md" />
+    <Content Include="pure\README.md" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>TypeScriptHTMLAppPontinho</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49686</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49686/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.TypeScript.MSBuild.2.1.5\build\Microsoft.TypeScript.MSBuild.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.TypeScript.MSBuild.2.1.5\build\Microsoft.TypeScript.MSBuild.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.TypeScript.MSBuild.2.1.5\build\Microsoft.TypeScript.MSBuild.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.TypeScript.MSBuild.2.1.5\build\Microsoft.TypeScript.MSBuild.targets'))" />
+  </Target>
+  <Import Project="..\packages\Microsoft.TypeScript.MSBuild.2.1.5\build\Microsoft.TypeScript.MSBuild.targets" Condition="Exists('..\packages\Microsoft.TypeScript.MSBuild.2.1.5\build\Microsoft.TypeScript.MSBuild.targets')" />
+</Project>
